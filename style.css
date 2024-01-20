@@ -556,13 +556,6 @@ span{
     color: yellow;
 }
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
-    width: 70%;
-}
-
-.skills-column:nth-child(1) .skills-content .progress:nth-child(4) .symbol{
-    color: blue;
-}
 
 /* Back-End */
 
@@ -588,14 +581,6 @@ span{
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .symbol{
     color: rgb(150, 148, 13);
-}
-
-.skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span{
-    width: 95%;
-}
-
-.skills-column:nth-child(2) .skills-content .progress:nth-child(4) .symbol{
-    color: rgb(7, 99, 164);
 }
 
 
