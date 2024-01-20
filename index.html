@@ -283,12 +283,8 @@
 
     <script>
         document.getElementById("contactForm").addEventListener("submit", function (event) {
-            event.preventDefault(); // Prevents the default form submission behavior
-
-            // Handle form submission logic here
-            // You can send the form data to a server using AJAX or perform other actions
-
-            // Display success message below the submit button
+            event.preventDefault(); 
+            
             var successMessage = document.getElementById("successMessage");
             var submitButton = document.querySelector(".btn");
 
@@ -296,13 +292,11 @@
             successMessage.style.fontSize = "1.5rem";
             successMessage.style.position = "relative";
             successMessage.style.textAlign = "center";
-            successMessage.style.top = "10px";  // Adjust this value for vertical positioning
+            successMessage.style.top = "10px";  
             successMessage.style.display = "block";
 
-            // Clear form fields
             document.getElementById("contactForm").reset();
 
-            // Hide success message after 5 seconds
             setTimeout(function () {
                 successMessage.style.display = "none";
             }, 5000);
