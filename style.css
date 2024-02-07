@@ -756,13 +756,13 @@ span{
 /* footer Details*/
 
 .footer{
+    position: relative; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
     background: #081b29;
-    position: relative; /* Add this line */
     z-index: 1; 
 }
 
