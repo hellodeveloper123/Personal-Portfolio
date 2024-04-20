@@ -596,7 +596,7 @@ span{
 
 .portfolio-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 3rem;
 }
@@ -976,10 +976,10 @@ section:nth-child(odd) .animate.scroll{
         margin-bottom: 3rem;
     }
 
-    .portfolio-container{
+/*     .portfolio-container{
         grid-template-columns: repeat(2, 1fr);
     }
-
+ */
     
 }
 
